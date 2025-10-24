@@ -26,7 +26,8 @@ SWD-Net/
 ├── requirements.txt    # Python dependencies
 └── README.md           # This file
 ```
-<img width="501" height="664" alt="image" src="https://github.com/user-attachments/assets/c706ed91-b935-4ad0-b798-b20d8e8a7607" />
+![Picture1](https://github.com/user-attachments/assets/b5203bfd-1097-4d7f-88c7-a31a9ffdd77f)
+
 
 Fig. 1. Representative SWD-Net samples. Top: 2023 NAIP Summer Images; bottom: 2024 Google Earth Winter Images.
 
@@ -81,7 +82,8 @@ python train.py --model segformer_unet --data_dir ../SWD-Net/train --epochs 100 
 # Train ViT-based U-Net
 python train.py --model vit_unet --data_dir ../SWD-Net/train --epochs 100 --batch_size 8 --lr 1e-4
 ```
-
+<img width="4438" height="2084" alt="Picture2" src="https://github.com/user-attachments/assets/2595a9aa-83ae-4224-9b55-6841993de963" />
+Fig. 2. Visual comparison of segmentation results from different models on representative SSWD-Net test patches. (a) Original image, (b) Ground truth mask, (c) U-Net, (d) Mamba-U-Net, (e) SegFormer- U-Net, (f) ViT-U-Net, (g) Swin-U-Net. 
 #### Training Parameters
 
 | Parameter | Description | Default |
@@ -112,7 +114,6 @@ python predict.py --model unet --checkpoint weights/SWIN-UNET_20250729_161647_be
 python predict.py --model unet --checkpoint weights/SWIN-UNET_20250729_161647_best.pth \
     --input test_images/ --output predictions --save_probability
 ```
-
 #### Prediction Parameters
 
 | Parameter | Description | Default |
