@@ -84,6 +84,8 @@ python train.py --model vit_unet --data_dir ../SWD-Net/train --epochs 100 --batc
 ```
 <img width="4438" height="2084" alt="Picture2" src="https://github.com/user-attachments/assets/2595a9aa-83ae-4224-9b55-6841993de963" />
 Fig. 2. Visual comparison of segmentation results from different models on representative SSWD-Net test patches. (a) Original image, (b) Ground truth mask, (c) U-Net, (d) Mamba-U-Net, (e) SegFormer- U-Net, (f) ViT-U-Net, (g) Swin-U-Net. 
+
+
 #### Training Parameters
 
 | Parameter | Description | Default |
