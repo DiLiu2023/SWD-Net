@@ -2,9 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Dataset and utilities for SWD-Net training
-
-Author: Assistant
-Date: 2024
+Date: 2025
 """
 
 import torch
