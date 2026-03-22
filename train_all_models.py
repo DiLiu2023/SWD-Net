@@ -6,8 +6,6 @@ Script to train all five models sequentially
 Usage:
     python train_all_models.py --data_dir ../water_planets/default --epochs 100
 
-Author: Assistant
-Date: 2024
 """
 
 import subprocess
