@@ -10,8 +10,8 @@ Models:
 4. SegFormer-based U-Net: SegFormer encoder with U-Net decoder
 5. ViT-based U-Net: Vision Transformer encoder with U-Net decoder
 
-Author: Assistant
-Date: 2024
+
+Date: 2025
 """
 
 import torch
