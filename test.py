@@ -6,8 +6,8 @@ Testing/Evaluation script for SWD-Net models
 Usage:
     python test.py --model unet --checkpoint checkpoints/best_model.pth --data_dir test_data
 
-Author: Assistant
-Date: 2024
+
+Date: 2025
 """
 
 import torch
