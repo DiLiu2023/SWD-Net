@@ -6,8 +6,7 @@ Script to test and compare all five models
 Usage:
     python test_all_models.py --data_dir test_data --checkpoint_dir checkpoints
 
-Author: Assistant
-Date: 2024
+Date: 2025
 """
 
 import subprocess
